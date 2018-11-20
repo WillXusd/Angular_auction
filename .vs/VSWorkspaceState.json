@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\node_modules",
     "\\node_modules\\bootstrap",
     "\\node_modules\\bootstrap\\dist",
     "\\node_modules\\bootstrap\\dist\\css",
@@ -10,11 +9,10 @@
     "\\node_modules\\bootstrap\\js\\dist",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\carousel",
-    "\\src\\app\\navbar",
+    "\\src\\app\\home",
     "\\src\\app\\product",
-    "\\src\\app\\search",
-    "\\src\\app\\stars"
+    "\\src\\app\\product-detail"
   ],
+  "SelectedNode": "\\src\\app\\product-detail\\product-detail.component.html",
   "PreviewInSolutionExplorer": false
 }
