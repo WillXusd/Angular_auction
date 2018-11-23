@@ -1,18 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\node_modules\\bootstrap",
-    "\\node_modules\\bootstrap\\dist",
-    "\\node_modules\\bootstrap\\dist\\css",
-    "\\node_modules\\bootstrap\\dist\\js",
-    "\\node_modules\\bootstrap\\js",
-    "\\node_modules\\bootstrap\\js\\dist",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\home",
-    "\\src\\app\\product",
-    "\\src\\app\\product-detail"
+    "\\src\\app\\carousel"
   ],
-  "SelectedNode": "\\src\\app\\product-detail\\product-detail.component.html",
+  "SelectedNode": "\\src\\app\\carousel\\carousel.component.html",
   "PreviewInSolutionExplorer": false
 }
