@@ -12,8 +12,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { HomeComponent } from './home/home.component';
 import { Routes, RouterModule } from '@angular/router';
 import { ProductService } from './shared/product.service';
-//想用响应式编程 就必须用这个库
-import { ReactiveFormsModule } from '@angular/forms';
+//想用响应式编程 就必须用这个库,要想使用双向数据绑定，也必须引入
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { FilterPipe } from './pipe/filter.pipe';
 
 const routeConfig: Routes = [
@@ -37,7 +37,8 @@ const routeConfig: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routeConfig),
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]

@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\carousel"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\src\\app\\carousel\\carousel.component.html",
   "PreviewInSolutionExplorer": false
 }
