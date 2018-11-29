@@ -5,10 +5,10 @@ export class ProductService {
   private products: Product[] = [
     new Product(1, "第一个商品", 1.99, 3.5, "this is my first product", ["电子产品", "硬件设备"]),
     new Product(2, "第2个商品", 2.99, 2.5, "this is my first product", ["图书"]),
-    new Product(3, "第3个商品", 3.99, 3.5, "this is my first product", ["电子产品", "硬件设备"]),
+    new Product(3, "第3个商品", 3.99, 3.5, "this is my first product", ["硬件设备"]),
     new Product(4, "第4个商品", 4.99, 4.5, "this is my first product", ["电子产品", "硬件设备"]),
     new Product(5, "第5个商品", 5.99, 1.5, "this is my first product", ["电子产品", "硬件设备"]),
-    new Product(6, "第6个商品", 6.99, 3.5, "this is my first product", ["电子产品", "硬件设备"])
+    new Product(6, "第6个商品", 6.99, 3.5, "this is my first product", ["图书"])
   ];
   private comments: Comment[] = [
     new Comment(1, 1, "2018-02-02 22:22:22", "will", 3, "nice!"),
@@ -18,6 +18,12 @@ export class ProductService {
   ]
 
   constructor() { }
+
+  //所有商品的门类
+  getAllCategories(): string[] {
+    return ["电子产品","硬件设备","图书"];
+  }
+
   getProducts():Product[] {
     return this.products;
   }
